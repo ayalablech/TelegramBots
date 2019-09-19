@@ -1,0 +1,17 @@
+<div class="divMain">
+
+  <label class="font" >Status Bots : By Ayala Blech</label>
+  <div class="divTable"> 
+     <table class="botTable">
+  <tbody>
+    <tr>
+      <td *ngFor="let bot of BotsList; let i = index" class="botName botTag" [ngClass]="{'border': i!=BotsList.length-1 , 'tr':i===BotsList.length-1 , 'tl': i===0}" >Bot{{i+1}}</td>
+    </tr>
+    <tr>
+      <td *ngFor="let bot of BotsList; let i = index" class="botTag" [ngClass]="{'border': i!=BotsList.length-1 ,'br':i===BotsList.length-1, 'bl': i===0 , 'colorFree': bot.status ===status , 'colorEngage': bot.status !=status}">{{bot.status}}</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
