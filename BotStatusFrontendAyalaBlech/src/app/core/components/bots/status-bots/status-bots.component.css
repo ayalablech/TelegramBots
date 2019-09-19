@@ -1,0 +1,66 @@
+.botTable {
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    border: none;
+    border-collapse: collapse;
+    padding: 0;
+}
+.font{
+    font-size: 20px;
+    font-family: Arial;
+}
+.divMain{
+    top: 54px;
+    position: relative;
+    left: 40%;
+    display: inline-block;
+text-align: center;
+}
+.divTable{
+    padding-top: 10px;
+}
+ 
+.botName{
+    background-color:#d7d7d7;
+    border-bottom: 1px #565656 solid;
+}
+.border {
+   
+    border-right: 1px #565656 solid;
+}
+.botTag{
+    height: 50px;
+    width: 150px;
+}
+.tl{
+    border-top-left-radius: 15px;
+}
+.tr{
+    border-top-right-radius: 15px;
+}
+.bl{
+    border-bottom-left-radius: 15px;
+}
+.br{
+    border-bottom-right-radius: 15px;
+}
+.colorFree{
+    background-color: #72dae1;
+}
+.colorEngage{
+    background-color: #ea96b4;
+}
+.urlDiv{
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+text-align: center;
+}
+.urlDetails{
+    display: block;
+}
+.button{
+    display: inline-block;
+}
