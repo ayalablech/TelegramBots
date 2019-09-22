@@ -14,6 +14,8 @@ Run and Test Instructions
 	* It's implemented as an Angular 8 project, to run it in development environment execute the following command:
 		'ng serve'
 	* Open Chrome browser and navigate to 'localhost:4200', you should see the main page.
+	* I choose to use the 'pooling' pattern to update the statuses dashboard even though I know that 'push notification' pattern is better,
+	  I have experience and knowledge in SignalR library, but because of matter of time I choose the first pattern, I hope it is okay with you...
 
 Summary
 1. It was a very interesting and instructive project. thanks!
